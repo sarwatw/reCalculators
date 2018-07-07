@@ -1,0 +1,443 @@
+/* Custom CSS stylesheet */
+
+#color-picker .col-lg-8 {
+	position: inherit;
+}
+
+a {
+	color:#ca0000;
+}
+
+a:hover,
+a:focus {
+  color: #860000;
+  text-decoration: underline;
+}
+
+table,th,td
+{
+border:1px solid black;
+}
+th,td
+{
+padding:10px;
+}
+
+code {
+	font-family: "Courier New", Courier, monospace;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+.navbar-default {
+	height:53px;
+	width:100%;
+	background-color: #111111;
+	border-color:#111111;
+	z-index: 100;
+}
+
+.navbar-default .navbar-collapse {
+	border-color:#111111;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+.navbar-toggle {
+	padding: 7px 10px;
+	color:#ffffff;
+	border-color:#111111;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: #777777;
+}
+
+.nav.navbar-nav {
+	background-color:#111111;
+}
+
+.nav a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-transform:uppercase;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color:#999999;
+}
+
+.navbar-default .navbar-nav li a {
+	color:#ffffff;
+}
+
+.navbar .active {
+	color: #999999 !important;
+}
+
+.nav-pills>li>a {
+	font-size: 11px;
+	color:#ca0000;
+}
+
+.nav-pills .active {
+	color: #ffffff;
+	background-color: #ca0000;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	background-color: #970000;
+}
+
+header {
+	margin:0.7em 0 0.7em 0;
+	height:160px;
+}
+
+.btn-info {
+	background-color: #ca0000;
+	border:0px;
+}
+
+.btn-info:hover {
+	background-color: #970000;
+	border:0px;
+}
+
+.btn-lg {
+	background-color: #f0f0f0;
+	margin:0px 10px 15px 0;
+	padding:20px;
+	color:#999999;
+}
+
+footer {
+	margin:2em 0 20em 0;
+}
+
+h1 {
+	font-size:26px;
+	margin-top:0px;
+}
+
+h3 {
+	font-size: 19px;
+}
+
+a.list-group-item:hover, a.list-group-item:focus {
+color: #000000;
+text-decoration: none;
+background-color: #f0f0f0;
+}
+
+a.list-group-item:hover h4, a.list-group-item:focus h4 {
+color: #860000;
+text-decoration: none;
+}
+
+.list-group-item p {
+	color:#777777;
+}
+
+.list-group-item {
+	background-color:#fafafa;
+	margin:10px 0 10px 0;
+	min-height:90px;
+}
+
+a.list-group-item .list-group-item-heading {
+	color: #ca0000;
+}
+
+.panel-default>.panel-heading {
+color: #ca0000;
+}
+
+.jumbotron {
+	background:transparent;
+	padding-top:58px;
+}
+
+.well {
+	opacity: 0.8;
+}
+
+.well p {
+	color:#666666;
+	font-size:15px;
+}
+
+/* START - Non-Bootstrap Custom CSS */
+
+.lynda-header {
+	margin:0.4em 0 0 0;
+}
+
+.lynda-footer {
+	margin:5em auto 3em auto;
+}
+
+#header-parallax {
+    background-image: url('../img/the-outback-flickr-user-sheng-han.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:fixed;
+    height: 350px;
+    margin: 0 auto 2em auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6) inset;
+}
+
+#footer-parallax {
+    background: url('../img/uluru-ayers-rock-australia-flickr-user-angelo-failla.jpg') no-repeat center center fixed;
+    -webkit-background-size: 100% 110%;
+    -moz-background-size: 100% 110%;
+    -o-background-size: 100% 110%;
+    background-size: 100% 110%;
+    min-height:450px;
+}
+
+@media (max-width: 480px) {
+	.lynda-header {
+		display:none;
+	}
+	header {
+		margin:0.7em 0 0.7em 0;
+		height:80px;
+	}
+	#header-parallax {
+		height:115px;
+	}
+}
+
+@media (max-width: 800px) {
+	.lynda-footer {
+		display:none;
+	}
+}
+
+@media (min-width: 1440px) {
+	#header-parallax {
+		height:400px;
+	}
+}
+
+@media (min-width: 1920px) {
+	#header-parallax {
+		height:550px;
+	}
+}
+
+@media (min-width: 2240px) {
+	#header-parallax {
+		height:600px;
+	}
+}
+
+@media (min-width: 2560px) {
+	#header-parallax {
+		height:650px;
+	}
+}
+
+/* END - Non-Bootstrap Custom CSS */
+
+
+
+/* START - Simple Mortage Payment Calculator */
+
+.smpc-div {
+	background-color: #f9f9f9;
+	border:1px solid #cccccc;
+	border-radius: 7px;
+	padding:15px;
+}
+
+.smpc-error {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#ca0000;
+}
+
+.smpc-monthlypayment {
+	margin-top:15px;
+	font-size:24px;
+	color:#ca0000;
+}
+
+.smpc-friendlyreminder {
+	display:none;
+}
+
+/* END - Simple Mortage Payment Calculator */
+
+
+/* START - HTML5 Canvas Hex/RGB Color Picker */
+
+.hccp-outerdiv {
+	display:inline;
+	position:inherit;
+}
+
+.hccp-canvas {
+	float:left;
+	border:1px solid #aaaaaa;
+}
+
+.hccp-innerdiv {
+	font-family:Courier,monospace;
+	float:left;
+	margin-left:15px;
+}
+
+.hccp-colorbar {
+	width:150px;
+}
+
+.hccp-resetdiv {
+	clear:both;
+}
+
+/* END - HTML5 Canvas Hex/RGB Color Picker */
+
+
+/* START - MPG Fuel Savings Calculator */
+
+.mfsc-upperdiv {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #fafafa;
+	width:240px;
+	height:340px;
+	line-height:20px;
+	border:1px solid #cccccc;
+	border-radius:10px;
+	margin:0 5px 5px 0;
+	padding:15px;
+	float:left;
+}
+
+.mfsc-middlediv {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #eaeaea;
+	width:240px;
+	height:340px;
+	line-height:20px;
+	margin:0 5px 5px 0;
+	border:1px solid #aaaaaa;
+	border-radius:10px;
+	padding:15px;
+	float:left;
+}
+
+.mfsc-lowerdiv {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #dadada;
+	width:240px;
+	height:340px;
+	line-height:20px;
+	border:1px solid #888888;
+	border-radius:10px;
+	margin:0 5px 5px 0;
+	padding:15px;
+	float:left;
+}
+
+.mfsc-lowerdiv p {
+	margin:2px 0 0px 0;
+}
+
+.mfsc-innerdiv {
+	width:50%;
+	float:left;
+}
+
+.mfsc-innerdiv p {
+	margin:2px 0 5px 0;
+}
+
+.mfsc-resetdiv {
+	clear:both;
+}
+
+.mfsc-costs {
+	height:23px;
+	width:100px;
+	background-color: #ffffff;
+	border:1px solid #bbbbbb;
+	border-radius: 3px;
+	padding-left:10px;
+}
+
+.mfsc-savings {
+	height:23px;
+	width:140px;
+	background-color: #ffffff;
+	border:1px solid #aaaaaa;
+	border-radius: 3px;
+	padding-left:10px;
+}
+
+.mfsc-afteryear {
+	height:20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.mfsc-error {
+	height:20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#ca0000;
+	line-height:20px;
+}
+
+.mfsc-infoMessage {
+	height:20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#ca0000;
+	line-height:20px;
+}
+
+.mfsc-pepTalk {
+	display:none;
+}
+
+/* END - MPG Fuel Savings Calculator */
+
+
+/* START - Easy Savings Calculator */
+
+.esc-div {
+	width:300px;
+	background-color: #f9f9f9;
+	border:1px solid #cccccc;
+	border-radius: 7px;
+	padding:15px;
+}
+
+.esc-error {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#ca0000;
+}
+
+.esc-finalbalance {
+	margin-top:15px;
+	font-size:24px;
+	color:#ca0000;
+}
+
+/* END - Easy Savings Calculator */
+
+
